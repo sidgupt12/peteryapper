@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griffin Family Chat-o-rama</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="main-container">
+        <header>
+            <div class="house-container">
+                <div class="griffin-house-sign">31 Spooner Street</div>
+            </div>
+        </header>
+        
+        <div class="chat-container">
+            <div class="family-photos">
+                <div class="photo chris"></div>
+                <div class="photo meg"></div>
+                <div class="photo stewie"></div>
+                <div class="photo brian"></div>
+                <div class="photo lois"></div>
+            </div>
+
+            <div class="tv-frame">
+                <h1>Hey there! I'm Peter Griffin! Hehehehehe</h1>
+                <div class="peter-info">
+                    <div class="peter-avatar"></div>
+                    <p class="peter-status">Ready to give advice that Lois would disapprove!</p>
+                </div>
+                
+                <div class="message-area">
+                    <textarea id="prompt" placeholder="What's grinding your gears? Ask me anything! Just don't tell Lois..." class="userinput"></textarea>
+                    <button id="submit" class="submit-btn">
+                        <span class="btn-text">FREAKIN' SWEET - SEND IT!</span>
+                    </button>
+                </div>
+
+                <div id="response-container" class="response-box"></div>
+            </div>
+
+            <div class="room-elements">
+                <div class="stewie-raygun"></div>
+                <div class="chris-monkey"></div>
+                <div class="brians-martini"></div>
+                <div class="megs-hat"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-notes">
+                <div class="note note-1">Warning: Advice probably worse than taking life lessons from Homer Simpson</div>
+                <div class="note note-2">Side effects may include: Excessive laughing and random cutaway gags</div>
+                <div class="note note-3">Bird may or may not be the word</div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
